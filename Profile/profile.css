@@ -1,0 +1,72 @@
+.header {
+  width: 16%;
+  /* margin-left: 20%; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns {
+  width: 100%;
+  background-color: white;
+}
+
+.btns:hover {
+  background-color: rgb(33, 252, 161);
+}
+
+.navop {
+  font-size: 20px;
+  /* padding-left: 25px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-link {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.haederdiv {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.headers {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  width: 10%;
+  padding-top: 12px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.contactus{
+  display: block;
+  font-size: 23px;
+}
+
+.contactus a{
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.contactus a:hover{
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  border-top: 2px solid grey;
+  padding: 20px 20px;
+  position: relative;
+  justify-content: space-around;
+}
+
